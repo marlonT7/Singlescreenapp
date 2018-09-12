@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v4.content.ContextCompat
 import android.util.Log
+import android.view.View
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
@@ -18,9 +19,9 @@ class MainActivity : AppCompatActivity() {
 
         val phone = findViewById<TextView>(R.id.phone)
 
-
+        // Set the phone number ready to call
         phone.setOnClickListener {
-            val intent = Intent(Intent.ACTION_CALL_BUTTON);
+            val intent = Intent(Intent.ACTION_DIAL);
             intent.data = Uri.parse("tel:${phone.text}");
             startActivity(intent)
         }
