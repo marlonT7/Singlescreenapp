@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Single screen app</string>
+    <string name="school_name">Centro Escolar "Profesora Herminia Martinez Alvarenga"</string>
+    <string name="school_logo">school logo</string>
+    <string name="school_mission" >Mission: We are a school that provides education qualified to fostering learning opportunity through effective methods and programs of continuous improvement.</string>
+    <string name="school_vision" >Vision: Be an educational institution with academic quality and values; where students be able to undertake, create and compete within the society.</string>
+    <string name="school_address">Address: Final calle principal, Colonia Mireya #2, San Ramón, Mejicanos</string>
+    <string name="school_phone">22842841</string>
+    <string name="school_phone_label">Phone:</string>
+</resources>
